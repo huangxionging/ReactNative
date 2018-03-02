@@ -21,26 +21,38 @@ const instructions = Platform.select({
 
 type Props = {};
 
-export default class App extends Component<Props> {
+// export default class App extends Component<Props> {
+//     render() {
+//         return (
+//             <View style={styles.container}>
+//                 <Text style={styles.welcome} >
+//                     Little Bear Welcome to React Native!
+//                 </Text>
+//                 <Text style={styles.instructions} >
+//                     To get started, edit App.js
+//                 </Text>
+                
+//                 <Text style={styles.instructions}> {instructions} </Text>
+//                 <View>
+//                     <Text>
+//                         你是个傻逼嘛
+//                     </Text>
+//                 </View>
+//             </View>
+
+//         );
+//     }
+// }
+
+export default class helloApp extends Component {
     render() {
         return (
-            <View style={styles.container}>
-                <Text style={styles.welcome} >
-                    Little Bear Welcome to React Native!
-            </Text>
-                <Text style={styles.instructions} >
-                    To get started, edit App.js
-            </Text>
-
-                <Text style={styles.instructions}> {instructions} </Text>
-                <View>
-                    <Text>
-                        你是个傻逼嘛
-                    </Text>
-                </View>
+            <View>
+                <Text>
+                    你觉得呢这个是什么
+                </Text>
             </View>
-
-        );
+        )
     }
 }
 
