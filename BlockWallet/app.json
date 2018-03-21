@@ -1,0 +1,8 @@
+{
+  "name": "BlockWallet",
+  "displayName": "BlockWallet",
+  "icon": "./images/icon.png",
+  "loading": {
+	  "icon": "./images/icon.png"
+  }
+}
