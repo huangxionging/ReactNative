@@ -7,11 +7,15 @@ export default class MineInfoHeaderComponent extends Component {
         this.state = {
             avatar
         }
-
     }
+
+    static propTypes = {
+        
+    }
+
     render() {
         return (
-            <TouchableOpacity>
+            <TouchableOpacity onPress={} >
                 <View style={styles.container} >
                     <Image
                         style={styles.avatar}

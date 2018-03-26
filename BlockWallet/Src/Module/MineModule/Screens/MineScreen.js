@@ -12,13 +12,21 @@ export default class MineScreen extends Component {
         }
        print(mineData)
     }
+
+    _renderItemMineInfo() {
+        
+    }
+
+    _renderItemConfig() {
+
+    }
     render() {
         let width = Dimensions.get("window").width
         return (
             <View style={[styles.container, {width}]} >
                 <SectionList
                     sections={
-                        =
+                        this.state.data
                     }
                 />
             </View>
