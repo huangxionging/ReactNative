@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "type": "MineInfo",
+            "name": "huangxiong",
+            "avatar": "url"
+        },
+        {
+            "type": "Setting",
+            "icon": "",
+            "item": "设置"
+        }
+    ]
+}
