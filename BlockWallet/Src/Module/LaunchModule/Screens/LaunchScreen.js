@@ -5,9 +5,10 @@ import { KittenTheme } from '../../../Theme/Theme';
 import { RkText, RkTheme } from 'react-native-ui-kitten';
 // 裁剪
 import { scale, scaleVertical, scaleModerate, print, CacheStorage, SystemInfo} from '../../../Utility';
-import { ProgressBar } from '../../../Component/ProgressBar';
+import { ProgressBar } from '../Components/ProgressBar';
 import { NavigationActions } from 'react-navigation';
 import Storage from 'react-native-storage';
+
 /**
  * 启动页
  * 

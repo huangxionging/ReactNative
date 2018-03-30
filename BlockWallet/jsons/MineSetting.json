@@ -1,0 +1,34 @@
+{
+    "dataArray": [
+        {
+            "data": [
+                {
+                    "type": "normal", 
+                    "item": "登录密码管理",
+                    "key": "0",
+                    "action": "modifyLoginPassword"
+                },
+                {
+                    "type": "normal", 
+                    "item": "支付密码管理",
+                    "key": "1",
+                    "action": "modifyPayPassword"
+                }
+            ],
+            "key": "setting0"
+            
+        },
+        {
+            "data": [
+                {
+                    "type": "login", 
+                    "item": "退出登录",
+                    "key": "0",
+                    "action": "logout"
+                }
+            ],
+            "key": "setting1"
+            
+        }
+    ]
+}

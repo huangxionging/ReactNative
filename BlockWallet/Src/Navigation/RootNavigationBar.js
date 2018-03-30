@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { StackNavigator } from 'react-navigation';
+import { StackNavigator, TabNavigator } from 'react-navigation';
 import { MainTabNavigation } from './MainTabNavigation';
 import LoginScreen from '../Module/LoginModule/Screens/LoginScreen';
 import LaunchScreen from '../Module/LaunchModule/Screens/LaunchScreen';
-
 
 const RootNavigationBar = StackNavigator({
     // 启动页
@@ -20,12 +19,11 @@ const RootNavigationBar = StackNavigator({
     navigationOptions: {
         header: null,
         headerStyle: {
-            backgroundColor: "#000000",
         },
         headerTintColor: "#333",
         gesturesEnabled: true
     },
-    mode: "card"
+    mode: "card",
 });
 
 export default RootNavigationBar

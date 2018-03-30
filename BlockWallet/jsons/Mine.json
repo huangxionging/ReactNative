@@ -1,14 +1,59 @@
 {
-    "data": [
+    "dataArray": [
         {
-            "type": "MineInfo",
-            "name": "huangxiong",
-            "avatar": "url"
+            "data": [
+                {
+                    "type": "Setting",
+                    "icon":  "myService",
+                    "item": "我的服务状态",
+                    "key": "1"
+                }
+            ],
+            "key": "setting"
+            
         },
         {
-            "type": "Setting",
-            "icon": "",
-            "item": "设置"
+            "data": [
+                {
+                    "type": "Setting",
+                    "icon": "myToothbrushTail",
+                    "item": "绑定牙刷",
+                    "key": "11"
+                },
+                {
+                    "type": "Setting",
+                    "icon": "myWholesaleMall",
+                    "item": "32teeth商城",
+                    "key": "12"
+                },
+                {
+                    "type": "Setting",
+                    "icon": "myCheckOrder",
+                    "item": "我的订单",
+                    "key": "13"
+                },
+                {
+                    "type": "Setting",
+                    "icon": "myShippingAddress",
+                    "item": "收货地址",
+                    "key": "14"
+                } 
+            ],
+            "key": "setting0"
+            
+        },
+        {
+            "data": [
+                {
+                    "type": "Setting",
+                    "icon": "mySetting",
+                    "item": "设置",
+                    "key": "21",
+                    "navigate": "mineSetting"
+                }
+            ],
+            "key": "setting1"
+            
         }
     ]
 }

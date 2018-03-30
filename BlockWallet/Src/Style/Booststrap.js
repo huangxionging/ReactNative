@@ -26,3 +26,12 @@ export let booststrap = () => {
         fontSize: 14,
     })
 }
+
+export const icons = {
+    myService: require("../../images/my_service.png"),
+    myToothbrushTail: require("../../images/my_toothbrush_tail.png"),
+    myWholesaleMall: require("../../images/my_wholesale_mall.png"),
+    myCheckOrder: require("../../images/my_check_order.png"),
+    myShippingAddress: require("../../images/my_shipping_address.png"),
+    mySetting: require("../../images/my_setting.png")
+}

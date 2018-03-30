@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import RootNavigationBar from './Navigation/RootNavigationBar';
+
+
 /**
  * 路径
  */

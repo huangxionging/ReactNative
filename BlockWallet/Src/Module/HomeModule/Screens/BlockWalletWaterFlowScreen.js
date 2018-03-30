@@ -3,28 +3,33 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 import { NavigationActions } from 'react-navigation';
 import RootNavigationBar from '../../../Navigation/RootNavigationBar';
 import { print } from '../../../Utility';
-import WealthTotalHeaderComponent from '../Components/WealthTotalHeaderComponent';
 
 
 
-export default class HomeScreen extends Component {
+
+export default class BlockWalletWaterFlowScree extends Component {
     static navigationOptions = {
-        title: "财富"
+        title: "流水",
+        tabBarVisible: false // tabBar 隐藏
     }
 
     constructor(props) {
         super(props)
     }
     relogin() {
-       this.props.navigation.navigate("walletWaterFlowScreen")
+       this.props.navigation.dispatch(NavigationActions.reset({
+           index: 0,
+           actions: [NavigationActions.navigate({
+               routeName: "loginScreen"
+           })],
+           key: null
+       }))
     }
     render() {
         return (
             <View style={styles.container} >
-                <WealthTotalHeaderComponent
-                    latestIncome={"13re4re4"}
-                    totalMoney={"sw3434443"}
-                >{"hdshjhdj"}</WealthTotalHeaderComponent>
+                <Text>dddsds</Text>
+                <Button onPress={() => this.relogin()} title="重新登录" />
             </View>
         )
     }
@@ -32,6 +37,6 @@ export default class HomeScreen extends Component {
 
 let styles = StyleSheet.create({
     container: {
-        // marginTop: 100,
+        marginTop: 100,
     }
 })
